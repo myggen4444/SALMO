@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>SALMO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>SALMO</h1>
+
+    <div id="status">
+        <span class="dot online"></span>
+        <span id="status_text">OFFLINE</span>
+        <span id="timestamp"></span>
+    </div>
+</header>
+
+<!-- ===== LIVE DATA ===== -->
+<section class="cards">
+
+    <div class="card">
+        <h2>Temperatur</h2>
+        <p id="temperature">–</p>
+        <span class="unit">°C</span>
+    </div>
+
+    <div class="card">
+        <h2>Vanndybde</h2>
+        <p id="pressure">–</p>
+        <span class="unit">m</span>
+    </div>
+
+    <!-- Fremtidige sensorer -->
+    <div class="card">
+        <h2>Salinitet</h2>
+        <p id="salinity">–</p>
+        <span class="unit">g/L</span>
+    </div>
+
+    <div class="card">
+        <h2>Strømhastighet</h2>
+        <p id="velocity">–</p>
+        <span class="unit">m/s</span>
+    </div>
+</section>
+
+<!-- ===== GRAF ===== -->
+<section class="graph-section">
+    <h2>Utvikling over tid</h2>
+    <div class="graph-layout">
+        <canvas id="dataChart" width="800" height="400"></canvas>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
