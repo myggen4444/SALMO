@@ -6,3 +6,5 @@ server_v3 er mappen med kode som lastes opp til mikrokontroller 1, for å håndt
 salinitet er mappen med kode som drifter mikrokontroller 2 som håndterer en enkel og selvprodusert salinitetssensor.
 
 vannstrom mappen inneholder arduino kode som styrer magnetene som er blitt brukt i produksjon av vannstrømms-sensoren.
+
+Vedlagt ligger også vedlegg som tar for seg kontruksjonen av vannstrømsensoren og salinitetsensoren som er utviklet i prosjektet.
